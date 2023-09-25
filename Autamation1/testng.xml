@@ -1,0 +1,11 @@
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.actitime.TestNG.CustomerModule"/>
+      <methods>
+		  <include name="CreateCustomer"/>
+	  </methods>
+    </classes>
+  </test>
+</suite> 
